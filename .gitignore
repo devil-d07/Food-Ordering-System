@@ -1,0 +1,68 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# Virtual Environment
+# =========================
+venv/
+env/
+ENV/
+.venv/
+
+# =========================
+# IDE / Editor Files
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Environment Variables
+# =========================
+.env
+
+# =========================
+# Database / Local Data
+# =========================
+data/users.json
+data/orders.json
+
+# (Keep menu.json tracked if needed)
+# data/menu.json
+
+# =========================
+# Build / Distribution
+# =========================
+build/
+dist/
+*.spec
+
+# =========================
+# Pillow / Images Cache (optional)
+# =========================
+*.png~
+*.jpg~
+*.jpeg~
+
+# =========================
+# Temporary Files
+# =========================
+*.tmp
+*.bak
