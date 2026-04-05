@@ -6,3 +6,4 @@ class Menu:
 
     def get_items(self):
         return self.db.read()
+    
