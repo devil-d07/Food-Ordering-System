@@ -35,3 +35,4 @@ class CartUI:
         self.order.place(cart.items, cart.total())
         cart.clear()
         self.display()
+        

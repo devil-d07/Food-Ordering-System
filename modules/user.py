@@ -15,3 +15,4 @@ class User:
     def login(self, username, password):
         return any(u['username']==username and u['password']==password for u in self.db.read())
     
+    
