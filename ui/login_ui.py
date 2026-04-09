@@ -34,4 +34,4 @@ class LoginUI:
         if self.user.register(self.u.get(), self.p.get()):
             self.msg.config(text="Registered", fg="green")
         else:
-            self.msg.config(text="User exists", fg="red")
+            self.msg.config(text="User exists", fg="red")   

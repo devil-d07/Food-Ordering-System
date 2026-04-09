@@ -13,3 +13,4 @@ class OrderUI:
 
         for o in self.order.history():
             tk.Label(self.frame, text=f"{o['date']} - ₹{o['total']}").pack()
+            
