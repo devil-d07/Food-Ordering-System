@@ -70,6 +70,14 @@ class DashboardUI:
         from ui.order_ui import OrderUI
         self.frame.destroy()
         OrderUI(self.root)
+        
+
+
+
+
+
+
+
 
 
 
