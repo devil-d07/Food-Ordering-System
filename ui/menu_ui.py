@@ -54,6 +54,7 @@ class MenuUI:
         
         self.frame.destroy()
         DashboardUI(self.root)
+        
 
 
 
